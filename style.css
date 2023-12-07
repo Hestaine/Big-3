@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(-70deg, red 30%, orange, yellow, green, blue, indigo, violet ), url("20511948.jpg");
+    background-blend-mode: lighten;
+    background-size: cover;
+    padding-bottom: 2rem;
+}
+video{
+    width: 80%;
+    height: auto;
+    box-shadow: black 0.5rem 0.5rem 0.5rem;
+}
+h1{
+    color: white;
+    font-family: 'Tangerine', serif;
+    font-size: 60px;
+    text-shadow: 4px 4px 4px black;
+}
+ul{
+    color: white;
+    font-family: 'Vivaldi', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px black;
+}
+ol{
+    color: white;
+    font-family: 'Calibri' ;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px black;
+}
+h4, h3{
+    color: white;
+    font-family: 'Electro';
+    font-size: 1.5rem;
+    text-shadow: 4px 4px 4px black;
+    margin-bottom: 1rem;
+}
+form{
+    color: white;
+    text-shadow: 4px 4px 4px black;
+}
+a{
+    color: #dddddd;
+    font-size:  1.5rem;
+}
+a:hover{
+    color: cornflowerblue;
+    cursor: pointer;
+}
+a:active{
+    color: red;
+}
+a:visited{
+    color: black;
+}
+.link{
+    display: block;
+    margin-top: 2rem;
+    color: #dddddd;
+}

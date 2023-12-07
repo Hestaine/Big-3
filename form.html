@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preference</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?">
+    <link rel="icon" href="./busy.jpg">
+</head>
+<body>
+    <h1>Fill this form so you can be taken to a platform that suits your taste</h1>
+    <form action="">
+        <fieldset class="info"> 
+          <h2>Please provide correct information below</h2> 
+          <label for="name" name="name"> Full Name: <input type="text" id="name" name="name" placeholder="Please input your name..." required></label><label for="age" name="age"> Real Age: <input type="number" id="age" name="age" placeholder="Age" min="13" max="99" required></label><label for="device type" name="dev"> Name of Device: <input type="text" id="dev" name="dev" placeholder="Infinix hot 8" required></label><label for="sim" name="sim"> Sim connnection: <input type="text" id="sim" name="sim" placeholder="3g" required></label><label for="loc" name="loc"> Location: <input type="text" id="loc" name="location" placeholder="Lagos"></label>
+        </fieldset>
+        <fieldset class="prefer">
+           <h2>In this field pick what you prefer</h2>
+           <h3>Please pick a minimum of 4 choices</h3>
+          <label for="one" name="one">
+            <input type="checkbox" id="one" name="one"> First time anime watcher
+          </label>
+          <label for="on" name="on"><input type="checkbox" id="on" name="on"> Online streaming
+          </label>
+          <label for="off" name="off"><input type="checkbox" id="off" name="off"> Offline streaming
+          </label>
+          <label for="bin" name="bin"><input type="checkbox" id="bin" name="bin"> Binge watching
+          </label>
+          <label for="sub" name="sub"><input type="checkbox" id="sub" name="sub"> Watching in sub
+          </label>
+          <label for="dub" name="dub"><input type="checkbox" id="dub" name="dub"> Watching in dub
+          </label>
+          <label for="web" name="web"><input type="checkbox" name="web" id="web"> Watching/downloading with websites
+          </label>
+          <label for="app" name="app"><input type="checkbox" name="app" id="app"> Watching/downloading with apps</label>
+        </fieldset>
+        <fieldset class="choose">
+          <h2>In this field pick a platform that suits you</h2>
+          <h4>Where do you prefer watchin anime?</h4>
+          <Select  name="where"> 
+            <option value="">Select</option>
+            <option value="1">At home</option>
+            <option value="2">At work</option>
+            <option value="3">In the toilet</option>
+            <option value="4">At a friend's place</option>
+            <option value="5">At a lover's place</option>
+            <option value="6">In a crowded place</option>
+          </Select>
+          <h4>Who do you watch anime with the most?</h4>
+          <select name="who" id="who"> 
+            <option value="">Select one</option>
+            <option value="1"> A friend</option>
+            <option value="2">Parents</option>
+            <option value="3">Lover</option>
+            <option value="4">Alone</option>
+          </select>
+          <label for="wab" name="wab"><input type="radio" id="wab" value="wab" name="I"> I prefer watching on a website</label>
+          <label for="dab" name="dab"><input type="radio" id="dab" value="dab" name="I"> I prefer downloding on a website</label>
+          <label for="wad" name="wad"><input type="radio" id="wad" value="wad" name="I"> I prefer watching and downloading from a website</label>
+          <label for="wap" name="wap"><input type="radio" id="wap" value="wap" name="I"> I prefer watching and downloading from an app</label>
+        </fieldset>
+        <div class="button">
+          <button type="submit" >Submit</button>
+          <button type="reset">Reset</button>
+        </div>
+        <h3>It is adviceable to use vpn when accesing the following platforms </h3>
+    </form>
+    <script src="form.js"></script>
+</body>
+</html>
