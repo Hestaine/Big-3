@@ -9,7 +9,11 @@ form.addEventListener('submit', (event) => {
   
   if (wabButton.checked) {
     window.location.href = "https://gogoanime.co.in/";
-  } else if (dabButton.checked) {
+  }  else if (wadButton.checked) {
+      window.location.href = "https://animepahe.ru/"
+  }  else if (dabButton.checked) {
     window.location.href = "https://animepahe.ru/";
+  }  else if (wapButton.checked) {
+    window.location.href = "https://gogoanime.co.in/"
   }
 });

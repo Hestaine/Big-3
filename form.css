@@ -56,6 +56,9 @@ input[type="checkbox"]{
     width: unset;
     height: 100%;
 }
+input[type="number"]::-webkit-inner-spin-button, ::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
 div{
     display: flex;
     flex-direction: row;
