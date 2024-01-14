@@ -40,6 +40,9 @@ fieldset{
 h1, h2, h3{
     text-align: center;
 }
+h1{
+    margin: 1rem auto;
+}
 input{
     display: block;
     width: 100%;
